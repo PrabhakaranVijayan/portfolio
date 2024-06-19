@@ -8,8 +8,15 @@
 </head>
 <body>
    <div class="bg-dark">
-    <div class="navbar pt-4 border-bottom bg-white">
-        <p class="ps-5 fs-5 ">Prabhakaran</p>
+     <div class="navbar pt-4 border-bottom bg-white">
+        <div class="d-flex align-content-center ps-5">
+            <a href="https://github.com/dashboard" target="_blank">
+                <img src="./assets/pics/github-logo-24.png">
+            </a>
+            <span class="fs-5 ps-1"> Prabhakaran</span>
+        </div>
+        
+        
         <nav class="px-4 mb-2 fs-5">
             <a href="#" class="text-decoration-none">Home</a>
             <a href="#" class="text-decoration-none ps-3">About</a>
@@ -17,9 +24,9 @@
             <a href="#" class="text-decoration-none ps-3">contact</a>
         </nav>
 
-    </div>
-    <!--home-->
-    <div class="container-fluid bg-white px-0 mx-0">
+     </div>
+       <!--home-->
+     <div class="container-fluid bg-white px-0 mx-0">
         <div class="row">
             <div class="col-md-6 col-sm-12 ps-5 pe-0  d-flex">
                 <div class="align-content-center">
@@ -37,9 +44,9 @@
         </div>
         
 
-    </div>
-    <!--about-->
-    <div class="container-fluid py-5 h-100vh bg-white px-0 mx-0">
+     </div>
+        <!--about-->
+     <div class="container-fluid py-5 h-100vh bg-white px-0 mx-0">
         <div class="row">
             <div class="col-12">
                    <div class="py-5 d-flex justify-content-center ">
@@ -59,10 +66,10 @@
             </div>
         </div>
         
-    </div>
-    <!--skills-->
+     </div>
+      <!--skills-->
     
-    <div class="container-fluid  py-5 h-100vh bg-white px-0">
+     <div class="container-fluid  py-5 h-100vh bg-white px-0">
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
                 <h2 class="d-inline border-bottom border-3">Skills</h2>
@@ -71,29 +78,67 @@
         </div>
         <div class="row ps-5 ms-5">
             <div class="col-lg-4 col-md-4 col-sm-6 py-5">
-                <span class="d-inline border px-3 py-2 rounded">HTML</span>
+                <div class="d-inline border px-3 py-2 rounded">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABC5JREFUWEftl1toHGUUx//n2yQmO7dsdmfiQ19KUVGhYjFVCz7Ul7Z58FKRan2wVZRofVAqqFTBS6GKioJSWtH4JHgpJQ99UAQLolhcbSEQ0NZ6QVvT3U2yOzdt0v2O7KYz2azZnZ3Zlz50YR92vv//nN+c882ZbwmX2IcuMR5cBorqSMsKFRR9swDMqABJ1iVQtDz785W8rYFUfS8Y65MkjPQQvrdc+/lYQEVF282gTZHBEwgI/IXpOW/GAiqktYdBtC1BvkhLivnjrO+MxwIqqepWyWIsMnoCAZM8MOy6h2MBTavG7YL52cBEjF+I8F2C/GDGBiasCWOR3Ge67tFYQMW0sY6JX20A+tb07ZeSAJ1L6y8SYUPoZfGM5ZdPxAKa7jdWixQfbDBNWZ79VBKgkqK/LYHrAm9vVTya+bf8eyygucHBwYUF+WmD6Yzl2TtrvwumqQr//N0dwzHfIYmMQN/Tl7p3aG6uEguIASoqem141WcVEXum69QhZoaG9Or5C4c6BlouZNOzNxPAsYDqlUhrn6HhzqY8e3QjcKEZNg4YAXOmZ7ccJ21frkVVO8hMq4OE/YK3645TqsOqxjbB3BcJQ9Ak465Ax8S/DrtOy3HSHkjRXmPQjWHSFHZZtn0qEqJBUNS0a1jSO0uX+LjlOeE4aY7VFqigGM8BvDEwCcaenG/n4wDNDOi3VAVebgD6yvKccJzEAiqmjTEm3hqYiPENEX6LAiKJU9l/7GOL+1DfAkI4LojlIdN332sVI2IP6fcx46EogP+tM39i+c4HtetFRd/OwI5QQ/S+5VYax8kye1ugGUXfVAV2hy0jTORce//FRA8w8OBKsIJ5f853JmprJVXfJRl3BroU6PWsV/kyUYWmB/SbhcArS2Y6anmVfRdbMQrCkysGJrnXct2v6+Bp/QUm3NbpPmzfMk27miW9u1QhzudcZ0/t95+6PtRXxSgxbgXhqrqG8XPtBSyu6DmSnZ21FytpvMHgtUEM7qHHhiuV04kq9LeqmikWH4VmxknLt59oDnZW03IS4FWOM9O8VlC0cYBWBdfnBd+/ki58cNpt2Cmgz1T0Iw2a2d5eMZYpl8udbPR6FSV/SEwDgd707C0EVBNVqF5yVZtgpnRTgLMEnpQQkwtCngju+C9Nyw5IsU5CrgXoBgauXOZjdizfuafdzUT+LyspxrgEhyVvEewMAb0MWG2TEf9hus4jXQEVFP0tANd30qIoDYEmTa/ydFdA51T9cWp4OUYlbbfOTIeH/cqBroBq5tOZjKHOyxECRsDyJhBpnYAJ5ook/Cgg8pU+8cOaFoeyxliRe6g5ce0sNK2q16aYRlD7Ls6gIE7t0PUTA3khOJ9znJOtDmKJn7KoSsxmMgbPy/WSqvPo7z9ulkpOlKfrlnWTIK43dsviJoirvwwUVbH/APeShjSoyZDFAAAAAElFTkSuQmCC"/>
+                    <span>HTML</span>
+                </div>
+                
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 py-5">
-                <span class="d-inline border px-3 py-2 rounded">CSS</span>
+                <div class="d-inline border px-3 py-2 rounded">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABCxJREFUWEftl1toHGUUx/9nNsnMxmpoMpOgFkorRKT4ILbbPuiDIog3EKV4oXgXRakPXmKamcSlmS8xSu2DF5IiVLzgJWqNghfUh2pQYSsoDYpWwQrWZmcaGxszM9nNHN2NO7vW3Z3d2Qh5cB7nnP/5ft+5zNklrLCHVhgP/gcKq0jFDCldxroY02lhAaLYF6XYrHs0+VM5bWUgzdgB8EVRDgzTEOhjxzJH6gKSVf1uIlwTFjyKnZne8GxzrC6guNp3PRPdFuXAMA1BetaxBl+rC0juHLiUePGBsOBR7Eyxx730zg/rAmrt6N/kS74oiAg0C8bhKAAgrGVwW0ErMfrmbXGgLiBZ3dFNJD1VIkq5ltCjACmaMQTwxoKWsXiPZz36Q11Aq7qSnVk/82IxQzjkWOLeSEBq3yiI1he0zS3+DSd+GT5WFxCQbFK0zLslQHNM2FcrkJttnsBM8vecv6LprwBoL2hd6/vLgPHFOoGAuGrsY+JTaoUo9XOz2a34bWQWACma8T7A+W8egU44lnltpZhVd5mi6XsBnBkBKOta4vKcrq2td7XXEnu1GIN+di3zjkhAcVXfxYRzy6aWcZAlfFXB5jqWGM+Xq6t3PfzYaNDQjK89WzwUCUhRjX4QX1hOzKAJzzKfDsteq9p/vk/+cNGP97vWUPA5OVlftWRxzdjO4KsqHPqJawkzDEjpMC6BxD1BhghveWnxTLQMdfRtg0Q3lRfTryD+qMKk/OikxWc5W1zTtzJwZzCtjL2OLV6OBCSrxpVEfF9YFv5lZ7zu2mJP7r2sGncRcTBVf32xd3vW0HuRgBRNvwDAQPF29IFjm7v+vvl1DNxeNkNEo07afDPf1JreC+DiIIaEAWdafBEJqKW9f4MU83cHYsbnri0eyd+82vJlX7j28P6lDOkjRDivOGW03bPN7yIBtarJM3zKPFdS/4OOLfK/AJTT9bXI0K1E2FBYnLkFzOxPxahl7A8reTTvp+pjIKwrxGiSmrfNTSfTkYCw5om44h2bKBEfdi0RNGjhfby9Zw1J8Oftx46cfFBcM8ZLN71rWVcAezLRgHJTohrvMLG8FIAyzHibfZpcmBn8BgBXbHi151RZUrYQ+w8Ga4Mx79ji6mpDEvo3SFGNF0DcVWaSbJakSSZ8ujA9OJWDkzuNsyTf3wySEgw+J7+6/vkccS1xS0NAcU1/koGzqwUBaGbJzsFGLzt9TFOObd7fEJCi6YMANlcHqtHKmHRtsbNRoJsBurHQBzUeXcaNGMzPu7Z4qSGgvFhLrlJ4YRORlACwsXRqqgVn4LjElGIg5VLTAVjJubALhTZ1uavKqtFNEieIkWBQd0n2mEDfMnOK4ac8e/hQ1UksFzyMONS++uE2uVlOkM8LLsW+rCULjZcslGr5HKKUbPlO/09Ktsx4Ky5DfwKwx4U0Cs4a/wAAAABJRU5ErkJggg=="/>
+                    <span>CSS</span>
+                </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 py-5">
-                <span class="d-inline border px-3 py-2 rounded">Javascript</span>
+                <div class="d-inline border px-3 py-2 rounded">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAphJREFUWEftmE9IFGEYxp/n082ZTJGoDlGuM2YEQR2SCHdXCIKgvHQKAqNDt8DOXQo6mGh0qYOCYCRRVEcPpaGH3Y0Oe6gIosBWO0T2D7U/M+u688akE2tujNCO7GHm9M33ffO9v3neZ95vZogKO1hhPAiB/DKySqG3ydr9Vaqwz+/CcowXnKoXZuLH8+K1VgFNp7VOR9BZjoB+ayhiOBqzh0OgfykVKhR6yE8Bv/HQQ6FCfgr4ja+7hwjOg5hywcSBCcqmYshggBTGjTa7xw00ndL6HcB024ocWZizBlqOIeeeZzKIbLb0LlKOelDBAAnGjcRfQOQrI2adL5WybFq7BEFsCTqAzVWRj6Mxq9cNkE1p/QBMgfSZ8dzYh0eo/Vmr9yjCkIL0CdkauEICjplxq68YCOBFI249zU40NDBi3xYgUkqtQBQqBUTgXlPcHnQhJpNaowJPUOGIiNQEbuoVKUtrAxAYJHOLKFzYFVt46QG4aqkNudOOSEegpi7loeWAi4q4o2g/2NkGy4OYTNZ0KLJrXU294pWUXCAwulGsoa1xfFsuDzcdYHvZPOQWPIHUu4tT+LApYV1z21MpbVCARggcKmREcPAPXFG9yqa0KwAOlAGIFolb+W3WSPWM3gPIXqFcNWO50d9Aaf0+Rb4sCrqbE/a7qSf6KXFwEhANDoeMduvuErh+QyC7/xuIwEx+3j7rVd/i1LxJamaE6CfwsaDZ55pbMVeyMKb0Q4BcLpuHCHkmeb3bODw76wV8PVG3ZUN1vhfEjuW+r8rh9Wi7lfbmfEqh7jv143DkDAhVNiDvCSKQgciMQLUAsscLstLQ+AzwPRypFyLqWi7wOlQqLWvtW5OHKu5Teq13F9S88HeMn7IVp9AvTvqpNHW5+2EAAAAASUVORK5CYII="/>
+                    <span>Javascript</span>
+                </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 py-5">
-                <span class="d-inline border px-3 py-2 rounded">Express js</span>
+                <div class="d-inline border px-3 py-2 rounded">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAByNJREFUWEftV39wVFcV/s69m81PwDKiiDgiwtAI7UydEWsr1YxtaTf70rAv+3YTsIW0xWnHUvFHEWY6pAPa1lppJ0UKM4W0Q8jue3kJm92kVjoNij8o+k+JQytoxUpHKdNqIiYk2XuPfRt33F1CkhrGqTPuXzt7zzvne98933fOEt5nH3qf4cH/LqCGVOsViksDYNUvpeg7UG3+cSJ2G1LuwjTzUoKYqUvSKecmq38qtzElhjwwmkueZGCYiIoAngfGywrqacew3swt1NDtflwB9xLjGgBvMiMNAb/2qw1TATUlQJFU+3aQ6I8HQt8HgTNFFa8hQcs18IQdNHs9UJEu51aQ+CoR/VTpdJtTY70BBkV6OjaR5uKYYT40GUuTAgrbdoUoFa4kuudA0Hw9N2F9d8ctrLGBiQ8CLMEwmOixLMBs7JrnE0vSabVDDaVNx7KGJgI1KaCGZPtiTbRTDapbHctShcnqu9qXahIuQbOUPrM1UHuiMCb8C7tUviMTgnD3ZL03KaBIT+cnSetdfynvCxyuakoXFosm2+8GxO0AA0T7YsHQ3sKYxkRixqBMu1KgsTVgnpkWQ6t73PlKY68aVFHHst7Ja+BU+0rN4usseStpXQSIBzXwPTtovpgbF020zYP0tyihVjsB69y0ADEz1ac6uyDE9lh17cvZZOFue67Q8hki1eGTxT/zfh9V6S+AcZuWam1uYavbvYE0NsYNc9W0mzqjnpS7k5hLGHiNCB9i5o8AtIJAwyCczivCWADAD6IjDD4LorPQvIzAAzGj7r7/GFBGXWV0MyBWEHATGBUgxN4l7LdCoFIzX61nq1XOdfmqWd2zf6ZSZQ6zPgoSp4l4CTPXE+jvDO4Fca9PDL/YGlgzMB64i5q6iZvEidSyagLdAfApofVLWvjeIuLHUCTvlEpxWvEeCdl0wFh1bLykkR73WlLYrIrUOoxglhRytyT5DZ0emat98kZoLCOBWFsgtJ+IODdHHqC1vftKLvxjxjYAc5jFjrgReiUbHE11tAB8BIyPAZAxw3wwc51J52aAVo7F8QtxI/xj71s05T7Cmv9GhLcZ9Lm4YTZmc0W63E+T4I0M8drZ8uOP5qo3D1B90n2AwZ9QFfpbTpV1Phd5JNURBuv13htl/SSaclZ4yspnSW+LBcNHMnah1G4QaYZ+Oh4Md+TGhQ/Zs+QF8QMm/DoerNuVPcsDFEm6nULSE22B0E8Kr+LLLzxXPjpafhzg3liw7i7vvD7pbmZCVR7ljN42w3x4jD33WQKuU0Pq6vEc2kq5NwrGV2KGGR4fULf7LDQdjhuhfYWAvOmtgR8BOHll+ezapqqqdCTZfj8RVefGMnN33Kh78ou9Tb4Pn78qQYRFSqtbnBrrD4U5x0wV18aMujvHBZRBDDzAWu+M14QTeebW3bGBGNcz+AoAT8WCZlc4YS8SQuwgouJMBzEPa603OrdZv4uknBCY7iLQX5lwNB40m/PyJd06ENZrgYfsgPnzcQFlmjHpNrzrLWsZOA4hdsUDq34ftm0py6QDoEUDiwVwvRpUtzuWdX61685XRWPXJkfR22qaZzLS16UtDD4Ez4tYNFQG+6wmatLhhL3E5/PdwxqVBP1Um1GXvKTKsgcNyc7linQjAQsBfoVBbzDDLJJDNUJqNTpasZfAx9qC5uPjyT6a6tgE5mtmwt94fmCgmGeVHNQacRK8CKBlzHzCJ3zPtFbX9hU+P+Fw9d5GClEFQY1gzAbTqyB9CoxSJtzATG2S+DS0OM2kfAz5USJeyKAowIfBPArQYiJcCeAcM+32ST400YCddNqPqaX9h0R8BiT+BKCSGX4CLQfrOQz0EmguAxqEs2D+kiA6q4FfEWEECq8SYb4Gz4tPZ3RkqQzbtl+Uyi6ANuUaZdi2S2WZ2APQyVjQ3OZthtGUuxXAwpKKgfUtVesu5Bkh0XY1lDbG26km7aE8NTzfuQBK75FiqK5w/oQP2p+S0uette1g+AHUCOj7Dxh1p/JM0LZnyzIZ8w3jjv2m+efx+u6SKrvIf/69MQYdyxq5yEtSB1cAqpmZWAD3thmhX17CVDsvy4KWaWwpm+eIUqM5EBguLBZJOWFisRnwhiQ/HDPM9sKY7MaoWK0r/JfynlTmBd/X01P8lhpKgOib8WDoN9kE3u/n9IWvgfF5lvwdBiQpbBGEl9KDqjmXzUiX+xkQtlQG+0zPi6Z1ZRmzTLlewQ/oYrXFN1hcAjG6nAkWGCPw+5piK2s99SE61m9bASbWHC9Oy2Np/5DWKHkEoNdjwdCjE4HxzqYk+8xgHSn/Ngif/VfCfoZ29SB3FPZVZoUZnBlm5loCzcjEM46WVAx8N1d5lwI2JUDZh+uTyQ+meahsqXHizGTUe4veye6rFvhGqP+5UOjtyZiZssqmmuhyxb0nhi5X0Wk39X8DyP+vbKos/xNYw1JS2FijYAAAAABJRU5ErkJggg=="/>
+                    <span>React</span>
+                </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 py-5">
-                <span class="d-inline border px-3 py-2 rounded">React</span>
+                <div class="d-inline border px-3 py-2 rounded">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABWVJREFUWEftl21sU2UUx//n3s69kRDjoO2iE5VEAyLRbGs3B7IPRgFNjAFZjPgSIn7wBXVtBxihqODW20EAJWGRhA9IBIMYAwMTovAB1nZTHIJGXsLAsd4OMpjZeFvvc8xTW9LdbX2ZkBDj8/He5zznd885//OcS7jNFt1mPPhvAVld7YVEV1YA9NI/keYtzPnLI/6p/aON/KgjZPcE5jOTD4BtkHNCmAR5wv7yLaOByhrIVheaDMGbADjiDg9AoTcpKvJYoc+Tngeh0AK9ofxYNmAZA91Z1zY2Vxj1ABYCUMA4qShwd/kc3yY7tLoCNUTUAKAEgAHmjddUy9KLDaW9mYBlAMRk94TeYMYnAO4C0Auij/VLyjo0lQ4M52SC98e8a30FtUxYAqAQwAViWhr2l30BEKcCSwlkdbU4FCgbmTA19rVAkyLUZV2NpRcy+dqid9vslpzoKoBeAUDEaAfzgnCj86eR7IcFkgepOVEfxdVD4H0ssEhvdP6WCYh5T/H7rY8aqrGeQI/H1bhZ5GBx9ypnxLx3CNAk77E7evr7zsTUwzjJiqiN+Cq+Gw2I2cbqDs0jsFRmCQPnIh1n7sXXL8jI31hDgOy1oems8AEGH4wUXpkBb3X0ZsAkzpj49oncvryLhwB+jIkrIj5nIDWQO/Q0g/cAvE3XnDVmGJsnUA3QExBiv+6v2C/fF9e1lQghPADPiKtLPu4E0CoUrO5ucLQnn2NzBfeC8BSBZoa18r0pgWzuwCyAdoOwXfc55g0BcgXrQagDo0H3OxYX1wWqhKDvARSMFEkG1US08m2J9wkggGfrmrM5NVBt60woonnECJmAbO7QEYCnMLCTiNdbBkR755rKHtuSn8excX0lMb0O4IpReHn8eW91n3R+A0gos/TGsj03GSgoe5EFgicPp0KbOxAEqJyBZyOaY1fWQPZ0NWSKkN0V/CXep2RdfAWmDks0+quMknRuXdx6P0WjJRaDT3SuqTyXDJRdDY1U1OaUySJnkmHPNdXQaQakmn7IVQd2nq2fdnF0NZQo6gyBYiqrbSti1ZjDgp8E0XQARSa4XmalKuIvOzooZZkUdTYpY0RXE5RJhoU7z9dXnkyGKK5te8hQjOcJeBnAg8kiyU72WaiMQKeYuAlAs645Zg8ne6sr+CIRvgRwRNcc8k68dSojpmbZ1WOyBk89rzlPJENZXQfHEyw7QKgCeLOuOV+7pUCyMdrcwd0AZgG4DuAwgKtJUE5Z7AxcYqil3VrpqVsOdPd7h/KjFtUL4B0Aeaa0yXtwK5GoD/sqfh+iskwao9UTcBJTS+xy7bVUm4cwm0n2CSdyKLt6ecwjENEChSwDBouuyF9qp9k+frm2yu6uQKnq0soOpuzUMYP8ntNg2OUFSYSV4UvqpsTBVndoI4EXEujDsFYup8iMl80TmAMmDcAEAH/qveoDZuBhBzRr3aEpJNStAB6Oe+sEYR2DLcS0TKaGwHPCmnNHJjRyQBOqWAtgWmw/4bgQPLfb7zxitk8xwjJZ3aEaYnwEwsTBhhzSO85Wmocr8+Hj3CGbCvEpQK/G3/Uw04rImP4NI81Z6Yf8udvVovuKCyyc0wDiCRBKS96Yfq3DW52spkEsSUP+BwDy5TxOoM+uKsrydH8f6YGGyYnN1TIDpMwn4Gi4sHwtvCQS2+K/QXJMvSf+bJdqoPbcasfxTNKbPdDCthzbWOMbAM/E6+EwGSxnHrBC6wFUxB3/way8FfGX7csEJLEne6C4ZbEn+JxgyEKVP4TJ6wJAy/SOjqZ0NTYc6KiB5GHF3rYC0Wd4QVgkA8TAhuuKuiJdnaSK2L8CyiYVme79HyhdpP4GYXzQQ9y4iJEAAAAASUVORK5CYII="/>
+                    <span>Node js</span>
+                </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 py-5">
-                <span class="d-inline border px-3 py-2 rounded">Docker</span>
+                <div class="d-inline border px-3 py-2 rounded">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAy1JREFUWEftlk9IFHEUx7/vt1tCYoEV7moFQUFRFKm5ZhQVRJ3qUGlQBEWCBSGWs9apRSJkNe2QCEV/Domih4wu1SE6RO4slNBBoqCMdHcUKSoQaXd/r2ZnNc1xdyYTBPd3m3m/932f+f7evBnCHFs0x3iQBkp1ImmH5p9DbkWtkqBD+pMT8YDm95SlciFZfMY9pAMx0BgvQuiYn0DuC4ECJs7STYiK2CundBSM2U688AdzJEe/liL2dahhe/esH5nLq74GY0uiUCmAjvGiDN/v8eqLXzOeaA2e/WZALm/wrDMSbe9vKvky4x6aKZC7Rt3HEo9BeOeMxPb0N5UMTAdlqand1cFyFpyni4iYo106YkfHBaV8DiF2GT1N78P+otax2DLv69xhf37IpagtACoS9/1avafGFlCOEqgk0PVE0h2ANwJUZBwLlYG4TWcDMMrEtcR01QDCQwYtAbjEGAPyVNi/rdWtqF0MHEzofQbLE4KcEWRST8hXODIRztQhl1etAaMuUaSNgQ0ANhltgnICbk3XQyDKANhwjORxHShHUe8TcMzEFUngZ+H64r3jL4mZdTlKsIwSFjPJpwBWE4u18SKC61jSxT95fBegkwa8DDBEMQCXARS7Egfydh8gFg/NahHhdtjvOW0KFE+EyE/2FtiKMWcyaA0BOwFkT82lZu2bqMLNwogpkEtRRwFk2CpqezPfI6YASREMNW7t+Tt9Ug+5FFUDEB9ys7IIYW3RyCr4dken0/8bqBfA+lmBMZrsnOb33EimPxmoWu0E4fDsAPHb7Myszb2+DT8tA7m9agUz9CH2v1dUMhcMNRS/SSU8yaHc88GV0sF9iaGXKtdGnC9r9cW1VhKmDEa3ot5iYHwuWBFJtoeBB4N9n46gszRmRWsK0Iqql3lRp+MjgAVWBJLvoWatr6/SKozR9ybLrag7GNQOcO4/QmmCcCbk93TZzZ/2a593SV0ajVI5EZdO+BdKrs94wUDL4HdH58TpawfK0u/HciWw1kFUQszrGKR/aBcb9nJEQnwgkgERcz4KXSsctlPcbK8loJkWsZOfBkrlVtqhtEOpHEgV/wWsLCE0eUhzdQAAAABJRU5ErkJggg=="/>
+                    <span>Docker</span>
+                </div>
             </div>
 
         </div>
         
-    </div>
+      </div>
+      <div class="container-fluid bg-white">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                
+                    <span class="h2 d-inline border-bottom border-3">Contact</span>
+                
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/login" target="_blank">
+                    <img src="./assets/pics/linkedin-square-logo-24.png">
+                </a>
+                <a href="mailto:zoomerblogs@gmail.com">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAtxJREFUWEftl0toE1EUhv8zSZv6KJ0pKdo8qAUXuhC3RVe6KTPRVlSsC1eCICj4WPiquFHxBQURBDeC6EJFxapN2o2ulG7FhS6EWpK0lZZOSqo1TWaOTsmESUmTmU4qXWRWmdz/nPPNf+89c4ewyi5aZTyoAVWakZpDjhxigIbC4mVdxwki2lAp2M04M/+EQPeUuHrdmqdoymJhsQ9MZ9wUchrLTFeV5PQVM64YKCRNAvA7TepSPy4n1MBSQGwO5PQ16/aOjf12Waxk+NtAYK1XmPtlDsoJtWDMYocKQMT4Sl490jk6M1JNqKG2pnbOCQNM2OoIKC9Og/iIHE+9qQZULCx2gekJgEZrPlsOFQEw96WTqXOHAG05YM8BT2NQvA2is6Xi7QJ9A7ClkIDwUfd4D0Z+TE44gRrY1LJR0HIvwNhpiSvKbQtIyNav1+rmnxKwx5JoUtBpX+fY9Cc7UEOB5h26wK8BtJh6Bt55svWH9br5WUdryKSOBaWLIFwDIOQTaAz0Kgn1VjmoaEg6T4DR9Dx5nQ6gV06oN437WEgqbCBbDllF0WDTboGElwyIln4Ry/zx9HRPTaWtYP1+f6OvQXvGgGzRpnTWDyjJmffmf66AjCQDrWKb4KF+ANstACM60B1JqF8WNCFpmwAYmnaL5rOucXdkPDVqBXcNZCSLboZPmJMeMaHHkjxDwFHjnoGHAHyWscfcoB5TviOzeHqrAmQmHQxJJxnoA1C3xDrKgnBajqv3l1pnVQVacCvY3EHERsMs7KB88XFm2q8kp4fLLfqqAxnFBtv8raxpr/797MgXH+ZctkuZmDVe0mWvFQEyKn4AvJmQdBwE9sXVB7uAXCUY19veTgGnmhVzyClI1frQcgv/t13mFtDWlEWD4sRKH+5LPEjZI+wNABfcPr2T+LKHfOMzKBaWLhHjVImG56SOHW0SwF05od6ximtfrpWsqzlUc6iSA5XG/wKE9Eg0RW0UkgAAAABJRU5ErkJggg=="/>
+                </a>
+                
+            </div>
+
+        </div>
+      </div>
     
-   </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>
